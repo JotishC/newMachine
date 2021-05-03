@@ -34,7 +34,8 @@ public class JavaFXApp extends Application {
     }
 
     protected int computeMultiply (int number1, int number2) {
-        return 0;
+         int result = number1*number2;
+        return result;
     }
 
     protected int computeDivide (int number1, int number2) {
